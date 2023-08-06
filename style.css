@@ -1,0 +1,66 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-image: url("img1.jpg");
+   color: white;
+   background-repeat: url("img2.jpg");
+   text-shadow: 0px 0px 5px white;
+   background-attachment: fixed;
+   user-select: none;
+}
+nav{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px white;
+}
+.box-02{
+  font-family: monospace;
+   background-image: url("img2.jpg");
+   font-size: 50PX;
+   color: white;
+   background-attachment: fixed;
+   text-shadow: 0px 0px 5px white;
+   padding: 50px;
+   border: 0px solid transparent;
+   border-radius: 20px;
+   letter-spacing: 8px;
+   box-shadow: 0px 0px 10px 2px white;
+   cursor: pointer;
+   transition: 1s;
+}
+.box-02:hover{
+  letter-spacing: 10px;
+  padding: 55px;
+  box-shadow: 0px 0px 15px 5px white;
+  font-size: 55px;
+  text-shadow: 0px 0px 7px white;
+}
+p{
+  line-height: 30px;
+}
+textarea{
+  user-select: all;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px white;
+  cursor: s-resize;
+  height: 300px;
+}
+textarea:active{
+  user-select: all;
+}
+button{
+  background: white;
+  color: black;
+  border: 5px solid white;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px white;
+  transition: 0.3s;
+}
+button:hover{
+  background: transparent;
+  cursor: pointer;
+  color: white;
+}
